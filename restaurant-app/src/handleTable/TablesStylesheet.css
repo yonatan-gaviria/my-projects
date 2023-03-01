@@ -1,0 +1,12 @@
+.Tables {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.Table {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+}
